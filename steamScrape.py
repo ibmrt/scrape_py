@@ -46,12 +46,13 @@ for link in linkList:
     gamePage = urllib.request.urlopen(link).read()
     pageSource = BeautifulSoup(gamePage, 'html.parser')
     reqSec = pageSource.find('div', class_='game_area_sys_req sysreq_content active')
-    print('1')
     try:
-        if len(reqSec) > 1:
-            print(type(reqSec.contents))
-            pass
-        else:
-            print('None')
+        if len(reqSec.contents) > 1:
+            try:
+                print(len(reqSec.find('li')))
+                print()
+            except:
+                print(len(reqSec.find('p')))
+                print()
     except:
-        pass
+        reqList.append(['None'])
