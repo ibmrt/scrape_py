@@ -12,7 +12,6 @@ def sScrape (name):
 
     keywords = name.split(' ')
     name = name.replace(' ', '+')
-
     search_site = urllib.request.urlopen('https://store.steampowered.com/search/?term=' + name).read()
     search_soup = BeautifulSoup(search_site, 'html.parser')
 
@@ -49,35 +48,31 @@ def sScrape (name):
         try:
             if len(reqSec.contents) > 1:
                 singleReqList = []
-                try:
-                    len(reqSec.find('li').contents) > 0
-                    for reqInfo in reqSec.find_all('li'):
-                        try:
-                            singleReqList.append(reqInfo.contents[0].contents[0])
-                        except:
-                            pass
-                        try:
-                            singleReqList.append(reqInfo.contents[1])
-                        except:
-                            pass
-                except:
-                    for reqInfo in reqSec.find_all('p'):
-                        try:
-                            singleReqList.append(reqInfo.contents[0].contents[0])
-                        except:
-                            pass
-                        try:
-                            reqInfoList = reqInfo.contents[1].split(', ')
-                            for i in reqInfoList:
-                                singleReqList.append(i)
-                        except:
-                            pass
+                if reqSec.find('div', class_='game_area_sys_req_full') != None:
+                    try:
+                        if len(reqSec.find('li').contents) > 0:
+                            for i in reqSec.find_all('li'):
+                                singleReqList.append(i.contents[0].contents[0])
+                                singleReqList.append(i.contents[1])
+                    except:
+                        for i in reqSec.find_all('p'):
+                            try:
+                                singleReqList.append(i.contents[0].contents[0])
+                            except:
+                                pass
+                            try:
+                                temp = i.contents[1].split(', ')
+                                for i in temp:
+                                    singleReqList.append(i)
+                            except:
+                                pass
+                else:
+                    for i in reqSec.find_all('li'):
+                        singleReqList.append(i.contents[0].contents[0])
+                        singleReqList.append(i.contents[1])
+            reqList.append(singleReqList)
         except:
             reqList.append(['None'])
-    try:
-        for i in range(len(nameList)):
-            sGameList.append(SteamGame(nameList[i], linkList[i], priceList[i], reqList[i]))
-            print(nameList[i], linkList[i], priceList[i], reqList[i])
-        return sGameList
-    except:
-        print('Error')
+    for i in range(len(nameList)):
+        sGameList.append(SteamGame(nameList[i], linkList[i], priceList[i], reqList[i]))
+    return sGameList
