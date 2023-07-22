@@ -10,3 +10,4 @@ class SteamGame:
         print(id.name + '        Requirements:' + id.price.rjust(t_distance, ' '))
         for i in id.setupList:
             print(''.ljust(distance, ' ') + i)
+        print(''.ljust(max, '-'))
