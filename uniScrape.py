@@ -7,6 +7,7 @@ while True:
     if gameName in '40sec':
         break
     else:
+        print('One Moment...')
         sGameList = sScrape(gameName)
         max_ = 0
         for i in sGameList:
