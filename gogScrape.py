@@ -6,9 +6,13 @@ name = "dread templar"
 gNameList = name.split(" ")
 name = name.replace(" ","%20")
 website = urllib.request.urlopen("https://www.gog.com/en/games?query=" + name).read()
-<<<<<<< HEAD
 soup = BeautifulSoup(website, "html.parser")
-print(website)
+sGameList = []
+linkList = []
+nameList = []
+priceList = []
+reqList = []
+
 
 for section in soup.find_all("a", class_='product-tile product-tile--grid'):
     link = section.get("href")
@@ -16,8 +20,14 @@ for section in soup.find_all("a", class_='product-tile product-tile--grid'):
     for i in gNameList:
         if i.lower() not in link.lower():
             checker = False
+    if checker:
+        linkList.append(link)
 
-=======
-soup = BeautifulSoup(website, "html.praser")
-priceList = []
->>>>>>> 92fc30333212ae204720e7b4ee9d9d16f603ff77
+for link in linkList:
+    gamePage = urllib.request.urlopen(link).read()
+    pageSource = BeautifulSoup(gamePage, "html.parser")
+    for i in pageSource.find_all("h1", class_ = "productcard-basics__title"):
+        print(i.contents[0].strip())
+    for i in pageSource.find_all("div", class_ = "product-actions-price"  ):
+        print("$",i.contents[1].contents[0])
+
