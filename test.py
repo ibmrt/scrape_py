@@ -1,20 +1,19 @@
-from bs4 import BeautifulSoup
-import urllib.request
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+from webdriver_manager.chrome import ChromeDriverManager
 
-name = "read or not"
-gNameList = name.split(" ")
-name = name.replace(" ","+")
-website = urllib.request.urlopen("https://gg.deals/games/?title=" + name).read()
-soup = BeautifulSoup(website, "html.parser")
-linkList = []
+options = Options()
+options.add_experimental_option("detach", True)
 
-for section in soup.find_all("a", class_ = "full-link"):
-    link = section.get("href")
-    print(link)
-    checker = True
-    for i in gNameList:
-        if i.lower() not in link.lower():
-            checker = False
-    if checker:
-        linkList.append(link)
-            
+name = "Crime Boss"
+keywords = name.split(' ')
+
+driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+driver.get("https://store.epicgames.com/en-US/")
+driver.maximize_window()
+
+links = driver.find_elements("xpath", "//a[@href]")
+for link in links:
+    if name in link.get_attribute("innerHTML"):
+        link.click()
