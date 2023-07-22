@@ -52,12 +52,21 @@ def sScrape (name):
                     try:
                         if len(reqSec.find('li').contents) > 0:
                             for i in reqSec.find_all('li'):
-                                singleReqList.append(i.contents[0].contents[0])
-                                singleReqList.append(i.contents[1])
+                                try:
+                                    if i.contents[0].contents[0] != None:
+                                        singleReqList.append(i.contents[0].contents[0])
+                                except:
+                                    pass
+                                try:
+                                    if i.contents[1].string != None:
+                                        singleReqList.append(i.contents[1].string)
+                                except:
+                                    pass
                     except:
                         for i in reqSec.find_all('p'):
                             try:
-                                singleReqList.append(i.contents[0].contents[0])
+                                if i.contents[0].contents[0] != None:
+                                    singleReqList.append(i.contents[0].contents[0])
                             except:
                                 pass
                             try:
@@ -68,8 +77,16 @@ def sScrape (name):
                                 pass
                 else:
                     for i in reqSec.find_all('li'):
-                        singleReqList.append(i.contents[0].contents[0])
-                        singleReqList.append(i.contents[1])
+                        try:
+                            if i.contents[0].contents[0] != None:
+                                singleReqList.append(i.contents[0].contents[0])
+                        except:
+                            pass
+                        try:
+                            if i.contents[1].string != None:
+                                singleReqList.append(i.contents[1].string)
+                        except:
+                            pass
             reqList.append(singleReqList)
         except:
             reqList.append(['None'])
