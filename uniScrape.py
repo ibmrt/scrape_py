@@ -1,9 +1,9 @@
 from steamScrape import sScrape
+
+print('Program which displays information of games after a search by the game name\n'
++ '(Type \'40sec\' to exit)\nWhen entering game name, enter words within the official game name for better accuracy')
 while True:
-    print('Program which displays information of games after a search by the game name\n'
-        + '(Type \'40sec\' to exit)\nWhen entering game name, enter words within the official game name for better accuracy')
-    print('')
-    input('')
+    input('Enter game name here (avoid using special characters, use space to separate keywords)\n(ex: counter Strike, hollow knight, Only up, TERRARIA):\n')
     gameName = 'hollow knight'
     if gameName in '40sec':
         break
@@ -16,3 +16,4 @@ while True:
         max_ += 80
         for i in sGameList:
             i.display_all(max_)
+    input('Press to continue...')

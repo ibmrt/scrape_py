@@ -10,7 +10,6 @@ def sScrape (name):
     priceList = []
     reqList = []
 
-    name = input(':\n')
     keywords = name.split(' ')
     name = name.replace(' ', '+')
 
@@ -78,6 +77,7 @@ def sScrape (name):
     try:
         for i in range(len(nameList)):
             sGameList.append(SteamGame(nameList[i], linkList[i], priceList[i], reqList[i]))
+            print(nameList[i], linkList[i], priceList[i], reqList[i])
         return sGameList
     except:
         print('Error')
