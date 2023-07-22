@@ -16,6 +16,7 @@ reqList = []
 
 for section in soup.find_all("a", class_='product-tile product-tile--grid'):
     link = section.get("href")
+    print(link)
     checker = True
     for i in gNameList:
         if i.lower() not in link.lower():
@@ -27,7 +28,7 @@ for link in linkList:
     gamePage = urllib.request.urlopen(link).read()
     pageSource = BeautifulSoup(gamePage, "html.parser")
     for i in pageSource.find_all("h1", class_ = "productcard-basics__title"):
-        print(i.contents[0].strip())
+        nameList.append(i.contents[0].strip())
     for i in pageSource.find_all("div", class_ = "product-actions-price"  ):
-        print("$",i.contents[1].contents[0])
+        priceList.append("$"+i.contents[1].contents[0])
 
