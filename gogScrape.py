@@ -29,5 +29,4 @@ for link in linkList:
     nameList.append(pageSource.find('h1', class_='productcard-basics__title').contents[0].strip())
     for i in pageSource.find_all("div", class_ = "product-actions-price"  ):
         priceList.append("$"+i.contents[1].contents[0])
-        print(pageSource.find('div', class_ = 'product-actions-price__final-amount _price').contents)
-
+    print(pageSource.find_all(attrs = {'ng-bind-html' : 'requirement.minimum'}))
