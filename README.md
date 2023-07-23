@@ -13,4 +13,16 @@ This repository contains our [*Steamist* Hackathon](https://joinstemist.org/hack
  - **PLEASE** refer to the video, if you get stuck with the download or installation process.
 
 > **DISCLAIMER**: When trying to run the uniScrape.exe file, windows might prompt you with the virus flag. Rest assured that this exe file does not contain any viruses and the flag is solely based on how the application works. The application utlizes web crawlers, which extracts data from websites something that windows doesn't like, therefore it flags it as unsafe. However, do proceed at your own risk as we are not responible with anything that happens to your computer after running the application. 
-   
+
+## Examples
+### The terminal after running the Application
+
+```
+Program which displays information of games after a search by the game name
+(Type '40sec' to exit)
+When entering game name, enter words within the official game name for better accuracy
+Enter game name here (avoid using special characters, use space to separate keywords)
+(ex: counter Strike, hollow knight, Only up, TERRARIA):
+```
+
+
