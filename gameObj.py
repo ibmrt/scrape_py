@@ -12,6 +12,7 @@ class SteamGame:
         for i in id.setupList:
             print(''.ljust(distance, ' '), i)
         print(''.ljust(max, '-'))
+        print()
 
 class GogGame:
     def __init__(idg, gName, gLink, gPrice, gSetupList):
@@ -30,3 +31,4 @@ class GogGame:
         for i in idg.setupList:
             print(''.ljust(distance, ' '), i)
         print(''.ljust(max, '-'))
+        print()
