@@ -41,18 +41,12 @@ One Moment...
 ### Results of Search
 
 ```
-Program which displays information of games after a search by the game name
-(Type '40sec' to exit)
-When entering game name, enter words within the official game name for better accuracy
-Enter game name here (avoid using special characters, use space to separate keywords)
-(ex: counter Strike, hollow knight, Only up, TERRARIA):
-terraria
-One Moment...
 ------------------------------------------------------------------------------------------------------------------------
 Most compatible results:
 ------------------------------------------------------------------------------------------------------------------------
 Steam:
 
+Link to game page: https://store.steampowered.com/app/105600/Terraria/?snr=1_7_7_151_150_1
 Terraria        Requirements:                                                                                      $9.99
                  OS: Windows Xp, Vista, 7, 8/8.1, 10
 
@@ -79,6 +73,7 @@ Terraria        Requirements:                                                   
 ------------------------------------------------------------------------------------------------------------------------
 Gog:
 
+Link to game page: https://www.gog.com/en/game/terraria
 Terraria        Requirements:                                                                                      $9.99
                  OS: Windows Xp, Vista, 7, 8/8.1, 10
 
@@ -106,6 +101,7 @@ Terraria        Requirements:                                                   
 ------------------------------------------------------------------------------------------------------------------------
 Steam
 ------------------------------------------------------------------------------------------------------------------------
+Link to game page: https://store.steampowered.com/app/105600/Terraria/?snr=1_7_7_151_150_1
 Terraria        Requirements:                                                                                      $9.99
                  OS: Windows Xp, Vista, 7, 8/8.1, 10
 
@@ -130,6 +126,7 @@ Terraria        Requirements:                                                   
                  DirectX®: 9.0c or Greater
 
 ------------------------------------------------------------------------------------------------------------------------
+Link to game page: https://store.steampowered.com/app/409210/Terraria_Official_Soundtrack/?snr=1_7_7_151_150_1
 Terraria: Official Soundtrack        Requirements:                                                                 $4.99
                                       OS: Windows Xp, Vista, 7, 8/8.1, 10
 
@@ -154,6 +151,7 @@ Terraria: Official Soundtrack        Requirements:                              
                                       DirectX®: 9.0c or Greater
 
 ------------------------------------------------------------------------------------------------------------------------
+Link to game page: https://store.steampowered.com/app/1323320/Terraria_Otherworld_Official_Soundtrack/?snr=1_7_7_151_150_1
 Terraria: Otherworld Official Soundtrack        Requirements:                                                      $4.99
                                                  Storage:
                                                   185 MB available space
@@ -162,6 +160,7 @@ Terraria: Otherworld Official Soundtrack        Requirements:                   
 ------------------------------------------------------------------------------------------------------------------------
 Gog
 ------------------------------------------------------------------------------------------------------------------------
+Link to game page: https://www.gog.com/en/game/terraria
 Terraria        Requirements:                                                                                      $9.99
                  OS: Windows Xp, Vista, 7, 8/8.1, 10
 
@@ -187,8 +186,7 @@ Terraria        Requirements:                                                   
 
 ------------------------------------------------------------------------------------------------------------------------
 Press to continue...
-|
 ```
 
 #### Results
- - Looking at the results, the first selection shows "Most Compatible Results", which is the function of this program, so that section shows the  the prices of the games from the 2 websites. The rest of the results is just the search results from the other 2 websites. 
+ - Looking at the results, the first selection shows "Most Compatible Results", which is the function of this program, so that section shows the prices of the games from the 2 websites. The rest of the results is just the search results from the other 2 websites. Above the game, there is a link that redirects to the game link and opens your browser and directs you to the link.
