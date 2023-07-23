@@ -23,6 +23,169 @@ Program which displays information of games after a search by the game name
 When entering game name, enter words within the official game name for better accuracy
 Enter game name here (avoid using special characters, use space to separate keywords)
 (ex: counter Strike, hollow knight, Only up, TERRARIA):
+|
+```
+### Idle After Searching for a Game
+
+```
+Program which displays information of games after a search by the game name
+(Type '40sec' to exit)
+When entering game name, enter words within the official game name for better accuracy
+Enter game name here (avoid using special characters, use space to separate keywords)
+(ex: counter Strike, hollow knight, Only up, TERRARIA):
+terraria
+One Moment...
+|
 ```
 
+### Results of Search
 
+```
+Program which displays information of games after a search by the game name
+(Type '40sec' to exit)
+When entering game name, enter words within the official game name for better accuracy
+Enter game name here (avoid using special characters, use space to separate keywords)
+(ex: counter Strike, hollow knight, Only up, TERRARIA):
+terraria
+One Moment...
+------------------------------------------------------------------------------------------------------------------------
+Most compatible results:
+------------------------------------------------------------------------------------------------------------------------
+Steam:
+
+Terraria        Requirements:                                                                                      $9.99
+                 OS: Windows Xp, Vista, 7, 8/8.1, 10
+
+                 Processor: 2.0 Ghz
+
+                 Memory: 2.5GB
+                 Hard Disk Space: 200MB
+
+                 Video Card: 128mb Video Memory, capable of Shader Model 2.0+
+
+                 DirectX®: 9.0c or Greater
+
+                 OS: Windows 7, 8/8.1, 10
+
+                 Processor: Dual Core 3.0 Ghz
+
+                 Memory: 4GB
+                 Hard Disk Space: 200MB
+
+                 Video Card: 256mb Video Memory, capable of Shader Model 2.0+
+
+                 DirectX®: 9.0c or Greater
+
+------------------------------------------------------------------------------------------------------------------------
+Gog:
+
+Terraria        Requirements:                                                                                      $9.99
+                 OS: Windows Xp, Vista, 7, 8/8.1, 10
+
+                 Processor: 2.0 Ghz
+
+                 Memory: 2.5GB
+                 Hard Disk Space: 200MB
+
+                 Video Card: 128mb Video Memory, capable of Shader Model 2.0+
+
+                 DirectX®: 9.0c or Greater
+
+                 OS: Windows 7, 8/8.1, 10
+
+                 Processor: Dual Core 3.0 Ghz
+
+                 Memory: 4GB
+                 Hard Disk Space: 200MB
+
+                 Video Card: 256mb Video Memory, capable of Shader Model 2.0+
+
+                 DirectX®: 9.0c or Greater
+
+------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
+Steam
+------------------------------------------------------------------------------------------------------------------------
+Terraria        Requirements:                                                                                      $9.99
+                 OS: Windows Xp, Vista, 7, 8/8.1, 10
+
+                 Processor: 2.0 Ghz
+
+                 Memory: 2.5GB
+                 Hard Disk Space: 200MB
+
+                 Video Card: 128mb Video Memory, capable of Shader Model 2.0+
+
+                 DirectX®: 9.0c or Greater
+
+                 OS: Windows 7, 8/8.1, 10
+
+                 Processor: Dual Core 3.0 Ghz
+
+                 Memory: 4GB
+                 Hard Disk Space: 200MB
+
+                 Video Card: 256mb Video Memory, capable of Shader Model 2.0+
+
+                 DirectX®: 9.0c or Greater
+
+------------------------------------------------------------------------------------------------------------------------
+Terraria: Official Soundtrack        Requirements:                                                                 $4.99
+                                      OS: Windows Xp, Vista, 7, 8/8.1, 10
+
+                                      Processor: 2.0 Ghz
+
+                                      Memory: 2.5GB
+                                      Hard Disk Space: 200MB
+
+                                      Video Card: 128mb Video Memory, capable of Shader Model 2.0+
+
+                                      DirectX®: 9.0c or Greater
+
+                                      OS: Windows 7, 8/8.1, 10
+
+                                      Processor: Dual Core 3.0 Ghz
+
+                                      Memory: 4GB
+                                      Hard Disk Space: 200MB
+
+                                      Video Card: 256mb Video Memory, capable of Shader Model 2.0+
+
+                                      DirectX®: 9.0c or Greater
+
+------------------------------------------------------------------------------------------------------------------------
+Terraria: Otherworld Official Soundtrack        Requirements:                                                      $4.99
+                                                 Storage:
+                                                  185 MB available space
+                                                 Storage (high-quality audio):
+                                                  Additional 815 MB available space
+------------------------------------------------------------------------------------------------------------------------
+Gog
+------------------------------------------------------------------------------------------------------------------------
+Terraria        Requirements:                                                                                      $9.99
+                 OS: Windows Xp, Vista, 7, 8/8.1, 10
+
+                 Processor: 2.0 Ghz
+
+                 Memory: 2.5GB
+                 Hard Disk Space: 200MB
+
+                 Video Card: 128mb Video Memory, capable of Shader Model 2.0+
+
+                 DirectX®: 9.0c or Greater
+
+                 OS: Windows 7, 8/8.1, 10
+
+                 Processor: Dual Core 3.0 Ghz
+
+                 Memory: 4GB
+                 Hard Disk Space: 200MB
+
+                 Video Card: 256mb Video Memory, capable of Shader Model 2.0+
+
+                 DirectX®: 9.0c or Greater
+
+------------------------------------------------------------------------------------------------------------------------
+Press to continue...
+|
+```
