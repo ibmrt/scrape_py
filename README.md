@@ -5,4 +5,5 @@ This repository contains our [*Steamist* Hackathon](https://joinstemist.org/hack
 
 ## Download
  - To download, simply click on uniScrape.exe in the GitHub Repository and download the raw file. For better help, please look at our submission video. 
+ - [Download](https://github.com/ibmrt/scrape_py/blob/master/uniScrape.exe)
  - This application was tested for windows only, so we can only guarantee that this application works for Windows.
