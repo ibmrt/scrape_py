@@ -8,7 +8,7 @@
 # Game Scraper 0.1
 This repository contains our [*Steamist* Hackathon](https://joinstemist.org/hacks) project, called Game Scraper 0.1. This program made in python is designed to search a variety of game websites and to search for the best prices for a selected game. 
 
-[Youtube/Video](https://www.youtube.com/watch?v=Rg2H0rREkCM)
+[Youtube/Video](https://www.youtube.com/watch?v=CEKgeWcNTO8)
 
 > Note: This Game Comparer Program currently compares only 2 websites (Steam and Gog), due to the timeframe and limited resources these are the only 2 we could have done.
 
