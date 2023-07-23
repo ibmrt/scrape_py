@@ -7,6 +7,7 @@ class SteamGame:
     def display_all(id, max):
         distance = len(id.name) + 8
         t_distance = max - (distance + len('Requirements:'))
+        print('Link to game page: ' + id.link)
         print(id.name + '        Requirements:' + id.price.rjust(t_distance, ' '))
         for i in id.setupList:
             print(''.ljust(distance, ' '), i)
@@ -24,6 +25,7 @@ class GogGame:
     def display_all_g(idg, max):
         distance = len(idg.name) + 8
         t_distance = max - (distance + len('Requirements:'))
+        print('Link to game page: ' + idg.link)
         print(idg.name + '        Requirements:' + idg.price.rjust(t_distance, ' '))
         for i in idg.setupList:
             print(''.ljust(distance, ' '), i)
