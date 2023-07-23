@@ -30,15 +30,21 @@ while True:
         separator(max_)
         print('Most compatible results:')
         if lenG != 0 and lenG != 0:
-            gGame = GogGame('n', 'l', 'p', ['s'])
+            gGame = GogGame('None', 'None', 'None', ['None'])
             for i in gGameList:
                 if sGameList[0].name.__eq__(i.name):
                     gGame = i
+                else:
+                    break
             separator(max_)
             print('Steam:\n')
             sGameList[0].display_all(max_)
             print('Gog:\n')
-            gGame.display_all_g(max_)
+            if gGame.name.__eq__('None'):
+                print('None')
+                separator(max_)
+            else:
+                gGame.display_all_g(max_)
         elif lenG == 0 and lenS == 0:
             separator(max_)
             print('Steam:\n')
