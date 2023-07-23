@@ -189,3 +189,6 @@ Terraria        Requirements:                                                   
 Press to continue...
 |
 ```
+
+#### Results
+ - Looking at the results, the first selection shows "Most Compatible Results", which is the function of this program, so that section shows the  the prices of the games from the 2 websites. The rest of the results is just the search results from the other 2 websites. 
