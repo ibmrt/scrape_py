@@ -65,7 +65,7 @@ while True:
         separator(max_)
         print('Steam')
         separator(max_)
-        if lenG != 0:
+        if lenS != 0:
             for i in sGameList:
                 i.display_all(max_)
         else:
