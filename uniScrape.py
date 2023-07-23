@@ -5,6 +5,7 @@ from gameObj import GogGame
 
 def separator(max):
     print(''.ljust(max, '-'))
+    print()
 
 print('Program which displays information of games after a search by the game name\n'
 + '(Type \'40sec\' to exit)\nWhen entering game name, enter words within the official game name for better accuracy')
