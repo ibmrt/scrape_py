@@ -14,6 +14,7 @@ This repository contains our [*Steamist* Hackathon](https://joinstemist.org/hack
 
 > **DISCLAIMER**: When trying to run the uniScrape.exe file, windows might prompt you with the virus flag. Rest assured that this exe file does not contain any viruses and the flag is solely based on how the application works. The application utlizes web crawlers, which extracts data from websites something that windows doesn't like, therefore it flags it as unsafe. However, do proceed at your own risk as we are not responible with anything that happens to your computer after running the application. 
 
+## [Video](https://www.youtube.com/watch?v=Rg2H0rREkCM)
 ## Examples
 ### The terminal after running the Application
 
