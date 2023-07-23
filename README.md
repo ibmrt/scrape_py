@@ -3,7 +3,6 @@ This repository contains our [*Steamist* Hackathon](https://joinstemist.org/hack
 
 > Note: This Game Comparer Program currently compares only 2 websites (Steam and Gog), due to the timeframe and limited resources these are the only 2 we could have done.
 
-## Download
+## [Download](https://github.com/ibmrt/scrape_py/blob/master/uniScrape.exe)
  - To download, simply click on uniScrape.exe in the GitHub Repository and download the raw file. For better help, please look at our submission video. 
- - [Download](https://github.com/ibmrt/scrape_py/blob/master/uniScrape.exe)
  - This application was tested for windows only, so we can only guarantee that this application works for Windows.
