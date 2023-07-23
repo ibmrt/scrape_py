@@ -29,7 +29,10 @@ def gScrape(name):
         nameList.append(pageSource.find('h1', class_='productcard-basics__title').contents[0].strip())
         if pageSource.find("div", class_ = "product-actions-price") !=None:
             for i in pageSource.find_all("div", class_ = "product-actions-price"  ):
-                priceList.append("$"+i.contents[1].contents[0])
+                try:
+                    priceList.append("$"+i.contents[1].contents[0])
+                except:
+                    priceList.append('Unavailable or Free')
         else:
             priceList.append('Unavaliable or Free')
         reqList.append(['None or Unavailable'])
