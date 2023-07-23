@@ -1,3 +1,10 @@
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" height="200px" srcset="https://cdn.discordapp.com/attachments/1007045570235465820/1132790563180122132/image.png">
+    <img alt="logo" height="200px" src="https://cdn.discordapp.com/attachments/1007045570235465820/1132790563180122132/image.png">
+  </picture>
+</div>
+
 # Game Scraper 0.1
 This repository contains our [*Steamist* Hackathon](https://joinstemist.org/hacks) project, called Game Scraper 0.1. This program made in python is designed to search a variety of game websites and to search for the best prices for a selected game. 
 
